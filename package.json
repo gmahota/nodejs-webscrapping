@@ -1,0 +1,15 @@
+{
+  "name": "nodejs-webscrapping",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/gmahota/nodejs-webscrapping.git",
+  "author": "Guimarães Mahota <guimaraesmahota@gmail.com>",
+  "license": "MIT",
+  
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "puppeteer": "^7.1.0"
+  }
+}
