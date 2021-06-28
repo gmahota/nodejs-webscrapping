@@ -4,7 +4,7 @@ const fs = require('fs');
 (async () => {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
-  await page.goto('https://www.instagram.com/legiaodosherois');
+  await page.goto('https://www.instagram.com/fmx.oficial/');
   await page.screenshot({ path: 'example.png' });
 
   const imgList = await page.evaluate(()=>{
